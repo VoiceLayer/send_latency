@@ -1,11 +1,11 @@
 # SendLatency
 
-**Measure message passing latency under differnt load conditions**
+**Measure erlang message passing latency under differnet load conditions**
 
 ## HowTo
 
 * Clone repository
-* Run tests using mix
+* Run tests using mix or escript
 
 Sender processes send 10 byte messages at a rate of 5 messages per second. The receivers track the latency per message and once finished convey the results to the collector process which display the statistics.
 
